@@ -4,6 +4,11 @@ export const createUser = async(req,res)=>{
     
 }
 
+export const getUser = async(req,res)=>{
+    console.log("req",req)
+    
+}
+
 
 
 // module.exports= createUser

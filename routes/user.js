@@ -3,14 +3,14 @@
 // const createUser = require('../controllers/userDataController.js');
 
 import express from "express";
-import createUser from '../controllers/userDataController.js'
+import {createUser,getUser} from '../controllers/userDataController.js'
 
 
 export const router = express.Router();
 
-
-
 router.post('/',createUser)
+
+router.post('/',getUser)
 
 
 // export {router}
